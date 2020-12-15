@@ -1,0 +1,251 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color: #000000;
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* Movie background */
+.movie-background {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/4-space.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color:rgba(0, 0, 0, 0.582);
+  padding: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  right: 100px;
+  display: flex;
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 230px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+}
+
+.enbrabox {
+  font-family: roboto;
+  font-size: 20px;
+  color: #ffffff;
+  width: 200px;
+  background-color: rgb(211, 51, 51);
+  box-shadow: 2px 2px 2px rgba(36, 36, 36, 0.918);
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.enbrabox:hover {
+  background-color: rgb(61, 27, 184);
+}
+
+.enbrabox1 {
+  font-family: roboto;
+  font-size: 20px;
+  color: #ffffff;
+  width: 200px;
+  background-color: rgb(211, 51, 51);
+  box-shadow: 2px 2px 2px rgba(36, 36, 36, 0.918);
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.enbrabox1:hover {
+  background-color: rgb(61, 27, 184);
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: #ffffff;
+}
+
+/* Main character */
+.main-character {
+  display: flex;
+  width: 1040px;
+  margin-bottom: 50px;
+}
+
+.chris {
+  margin-left: 25px;
+}
+
+.james {
+  margin-right: 25px;
+}
+
+.dave {
+  margin-right: 25px;
+}
+
+/* Director */
+.director {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1040px;
+}
+
+/* Side character */
+.side-character {
+  display: flex;
+  width: 1040px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.zoe {
+  margin-left: 25px;
+}
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 25px;
+  margin-right: 15px;
+}
+
+/* Rating title */
+.rating h4 {
+  color: white;
+  font-size: 20px;
+}
+
+.rating .big {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+/* Related Movies */
+.relatedm {
+  display: flex;
+  width: 1040px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  background-color: rgb(0, 0, 0);
+  align-items: flex-end;
+}
+
+.relatedmovies{
+
+}
+
+/* Typography */
+h1 {
+  color: white;
+  font-family: 'roboto', Courier, monospace;
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-family: lato;
+  line-height: 30px;
+}
+
+h3 {
+  color: rgb(194, 194, 194);
+  font-size: 20px;
+  font-family: lato;
+  margin-top: -10px;
+  
+}
+
+p {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 18px;
+}
+
+.year {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+
+a { 
+  color: white;
+  text-decoration: none;
+}
+
+.trailer {
+  display: flex;
+  width: 1040px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.relatedmovies {
+  margin-left: 60px;
+}
+
+/* Typography */
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(22, 22, 22);
+   color: white;
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.relatedm .image img:hover {
+  opacity: 0.5;
+}
